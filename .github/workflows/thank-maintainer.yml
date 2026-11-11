@@ -11,7 +11,7 @@ on:
 jobs:
   thank-maintainer:
     if: github.event.pull_request.merged == true
-    runs-on: ubuntu-latest
+    runs-on: avrea-ubuntu-latest-4-vcpu
     permissions:
       pull-requests: write
 

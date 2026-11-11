@@ -10,7 +10,7 @@ on:
       - master    
 jobs:
   check-description:
-    runs-on: ubuntu-latest
+    runs-on: avrea-ubuntu-latest-4-vcpu
     permissions:
       pull-requests: write
       issues: write

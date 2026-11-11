@@ -11,7 +11,7 @@ on:
 
 jobs:
   lint:
-    runs-on: ubuntu-latest
+    runs-on: avrea-ubuntu-latest-4-vcpu
     steps:
       - name: Setup refs
         id: setup-refs
